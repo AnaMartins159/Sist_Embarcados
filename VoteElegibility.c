@@ -14,7 +14,7 @@ int main(void)
     }
     else
     {
-        printf ("Not eligible for casting vote\n");
+        printf("Not eligible for casting vote\n");
     }
 
     return(0);
