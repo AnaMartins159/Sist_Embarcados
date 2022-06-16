@@ -7,14 +7,14 @@ void main()
 {
     char desc[15];
     char grd;
-    char answ[2];
+    char answ, again;
 
-    strcpy(answ, "Y");
+    again = 'Y';
 
-    while (strcmp(answ, "Y") == 0)
+    while (again == 'Y')
     {
-        printf("Input the grade: ");
-        scanf("%c", &grd);
+        printf("Input the grade (A to F): ");
+        scanf(" %c", &grd);
 
         grd = toupper(grd);
 
@@ -43,7 +43,7 @@ void main()
                 break;
         }
 
-        if (desc == "Not Found")
+        if (strcmp(desc, "Not Found") ==0)
         {
             printf("Invalid grade inserted. \n\n");
         }
@@ -51,9 +51,20 @@ void main()
         {
             printf("%s grade! \n\n", desc);
         }
-    
-        printf("Do you want to insert another grade? (Y/N)\n");
-        scanf("%s", &answ);
+
+        printf("Do you want to insert another grade? (Y/N): ");
+        scanf(" %c", &answ);
+
+        if(answ == 'Y')
+        {
+            again = 'Y';
+            printf("\n\n");
+        }
+        else
+        {
+            again = 'N';
+            printf("\n\n Bye!\n\n");
+        }
 
     }
     
