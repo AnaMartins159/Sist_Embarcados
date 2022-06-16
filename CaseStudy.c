@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-    char str[30] = "123456";
+    char str[30] = "1234567890 This is a test";
     char *ptr;
     long ret;
 
