@@ -10,11 +10,11 @@ int main(void)
 
     if(age>=18)
     {
-        printf("Eligible for casting vote\n");
+        printf("\nEligible for casting vote\n\n");
     }
     else
     {
-        printf("Not eligible for casting vote\n");
+        printf("\nNot eligible for casting vote\n\n");
     }
 
     return(0);
