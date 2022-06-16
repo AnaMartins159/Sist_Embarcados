@@ -8,7 +8,6 @@ int main() {
 
     ret = strtoul(str, &ptr, 10);
     printf("The number (unsigned long integer) is %lu\n", ret);
-    printf("String part is |%s|\n\n", ptr);
-    
+    printf("String part is |%s|\n\n", ptr);    
     return (0);
 }
