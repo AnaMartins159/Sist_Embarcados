@@ -1,21 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void)
+int main()
 {
     int age;
+    age = 0;
 
     printf("Insert the desired age:\n");
-    scanf("%d", &age);
-
-    if(age>=18)
+    if (scanf("%d", &age) !=1)
     {
-        printf("\nEligible for casting vote\n\n");
+        printf("\nInvalid input!\n\n");
     }
     else
     {
-        printf("\nNot eligible for casting vote\n\n");
+        if(age>=18)
+        {
+            printf("\nEligible for casting vote\n\n");
+        }
+        else
+        {
+            printf("\nNot eligible for casting vote\n\n");
+        }
     }
-
     return(0);
 }
