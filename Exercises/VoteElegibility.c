@@ -5,7 +5,6 @@ int main()
 {
     int age;
     age = 0;
-
     printf("Insert the desired age:\n");
     if (scanf("%d", &age) !=1)
     {
