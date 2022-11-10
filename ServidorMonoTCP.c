@@ -1,3 +1,17 @@
+/*
+ * 			ClienteMonoTCP.c
+ *
+ * Este programa cliente foi desenvolvido para conectar uma aplicacao servidora, enviando a cada 3 segundos a leitura do sensor Dallas
+ *
+ * Funcao:     Enviar temperatura nao formatada para servidor TCP
+ * Plataforma: Linux (Unix), ou Windows com CygWin
+ * Compilar:   gcc -Wall ClienteMonoTCP.c -o ClienteMonoTCP
+ * Uso:        ./ClienteMonoTCP Endereco_IP_ou_nome_do_servidor porta_do_servidor
+ *
+ * Referencia:      Jose Martins Junior
+ *
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
