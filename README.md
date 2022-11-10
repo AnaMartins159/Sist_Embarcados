@@ -14,4 +14,7 @@ CI DS18B20 - Dallas
 Cabo USB para Micro USB
 
 Protoboard
+
 Jumpers
+
+As conexões realizadas estão ilustradas no arquivo Esquematico Projeto.pdf
