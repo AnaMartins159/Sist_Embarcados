@@ -1,5 +1,5 @@
 # Sistemas Embarcados 2022.1 - Estação Meteorológica para Microclima
-## Utilizando o sensor de temperatura CI DS18B20 com a BeagleBone Black, as informações de temperatura são enviadas a um sistema desktop via TCP
+### Utilizando o sensor de temperatura CI DS18B20 com a BeagleBone Black, as informações de temperatura são enviadas a um sistema desktop via TCP
 
 Componentes do projeto:
 
@@ -11,3 +11,6 @@ Componentes do projeto:
 - Jumpers
 
 As conexões realizadas estão ilustradas no arquivo Esquematico Projeto.pdf
+
+flowchart LR
+    Initiate Server --> Initiate .GrandFinale on the board --> Continuous measure starts --Type "END"--> Measure stops
