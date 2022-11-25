@@ -11,7 +11,3 @@ Componentes do projeto:
 - Jumpers
 
 As conexões realizadas estão ilustradas no arquivo Esquematico Projeto.pdf
-
-<script>
-flowchart LR
-    Initiate Server --> Initiate .GrandFinale on the board --> Continuous measure starts --Type "END"--> Measure stops
